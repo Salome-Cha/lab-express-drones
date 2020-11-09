@@ -5,15 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{title}}</title>
+    <title class="main-title">{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
 
   <body>
 
-    {{{body}}}
+    <div class="container full-content-wrapper">
+   {{{body}}}
+
+<div class="container links-wrapper">
+    <a href="/drones/list" class="button drone-list"> List of available drones </a> 
+
+    <br>  
+ 
+    <a href="/drones/create" class="button create"> Add drones to the collection </a>
+
 
     <script src="/javascripts/script.js"></script>
+</div>
+    </div>
   </body>
 
 </html>

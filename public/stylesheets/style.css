@@ -3,6 +3,76 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00b7ff;
+
+h1{
+  background-color: black;
+  padding: 20px 60px;
+  color: white;
+  font-size: 36px;
+  padding: 30px 300px;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: 600;
 }
+
+.button {
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  margin: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.drone-list {
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.create{
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.card-body{
+  border: 1px solid grey;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.page-title {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
